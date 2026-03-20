@@ -1,29 +1,31 @@
-# 🔐 Password Checker Python
+# Password Checker Python
 
-Projeto que verifica a força de uma senha.
+Password strength checker built with Python and regular expressions.
 
-## Regras
+## Highlights
 
-A senha é analisada considerando:
+- Hidden password input with `getpass`
+- Rule-based strength scoring
+- Clear checklist with pass/fail criteria
+- Optional CLI argument for quick tests
 
-- tamanho mínimo
-- letras maiúsculas
-- números
-- caracteres especiais
-
-## Tecnologias
+## Stack
 
 - Python
-- Regex
+- Regular expressions
 
-## Como executar
+## Run locally
 
-Execute:
-
-```
+```bash
 python main.py
 ```
 
-## Autor
+Or pass a password directly:
 
-Douglas Aparecido da Silva
+```bash
+python main.py --password "StrongPass123!"
+```
+
+## Author
+
+Douglas Aparecido Silva
