@@ -28,4 +28,4 @@ python main.py --password "StrongPass123!"
 
 ## Author
 
-Douglas Aparecido Silva
+Becker
